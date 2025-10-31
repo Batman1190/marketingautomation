@@ -1,49 +1,49 @@
-## Marketing Automation Specialist – Interactive Course (Junior High)
+## Marketing Automation Specialist – Kid Adventure (for ages 9+)
 
-Welcome! This course introduces junior high learners to the world of Marketing Automation through hands-on, age-appropriate activities. Students will learn the concepts, tools, and workflows that real professionals use—simplified and made interactive.
+Welcome! This kid-friendly adventure introduces curious 9-year-olds to the world of Marketing Automation through fun, hands-on activities. Kids will learn how messages reach the right people at the right time—using simple words, playful examples, and creative challenges.
 
 ### Course Goals
-- Understand what marketing automation is and why businesses use it
-- Learn essential concepts: audiences, segments, journeys, triggers, emails/SMS, forms, scoring, and analytics
-- Practice planning, building, testing, launching, and improving a simple automated campaign
-- Develop ethical judgment around privacy, consent, and respectful marketing
+- Understand what marketing automation is (in kid language!)
+- Learn the essentials: people groups (segments), journeys, triggers, messages, and simple dashboards
+- Practice planning, trying ideas, checking results, and improving a tiny campaign
+- Build kindness and respect into messages (permission, privacy, friendly choices)
 
 ### Structure at a Glance
-- 5 Lessons (45–60 min each)
-- Student Workbook with interactive exercises
-- 2 Quizzes (knowledge + practical scenario)
-- 1 Capstone Project (plan and simulate an automated campaign)
+- 5 bite-sized lessons (30–60 min each)
+- Kid Workbook with drawing and circle-the-answer activities
+- 2 Friendly Quizzes (quick check + story challenge)
+- 1 Capstone Project (plan and show a simple journey)
 
 ### Lesson Map
-1. What Is Marketing Automation?
-2. Tools, Data, and Key Terms
+1. What Is Marketing Automation? (kid version)
+2. Tools, Data, and Key Words
 3. Plan and Build a Simple Campaign
 4. Journeys, Personalization, and A/B Testing
-5. Data, Dashboards, Privacy, and Ethics
+5. Data, Dashboards, Privacy, and Kindness
 
 ### Materials
-- `lessons/` – detailed lesson scripts
-- `exercises/student_workbook.md` – guided activities and reflection
-- `exercises/answer_key.md` – reference solutions for educators
-- `assessments/` – quizzes
-- `projects/capstone_project.md` – project brief and deliverables
+- `lessons/` – lesson scripts with kid intros
+- `exercises/student_workbook.md` – guided draw-and-think activities
+- `exercises/answer_key.md` – notes for helpers/teachers
+- `assessments/` – quick quizzes
+- `projects/capstone_project.md` – project brief
 - `resources/` – glossary, templates, and rubric
 
-### No-Software Simulation Option
-All activities can be done with paper or slides. Optional “pro mode” suggests free tools (e.g., Google Sheets, Miro, Canva) for simulations.
+### No-Software Option
+Everything can be done with paper and pencils. Optional “pro mode” suggests free tools (e.g., Google Slides, Canva) for simple simulations.
 
 ### Recommended Time
 - Total: ~6–7 hours including project presentations
 
 ### Inclusivity and Accessibility
-- Clear, simple language and visuals
-- Real-world, school-friendly examples
-- Activities that blend creative and analytical thinking
+- Extra-clear language and visuals for young learners
+- School- and home-friendly examples (clubs, birthdays, events)
+- Mix of drawing, listing, and simple problem-solving
 
 ### How to Use This Repo
-1. Start with `lessons/01_intro_marketing_automation.md` and proceed in order
-2. Hand out `exercises/student_workbook.md`
-3. Use `teacher/facilitator_guide.md` for pacing, timing, and tips
-4. Assess with quizzes and the capstone + `resources/rubric.md`
+1. Start with `lessons/01_intro_marketing_automation.md` (read the kid intro first!)
+2. Use `exercises/student_workbook.md` for activities
+3. Helpers/teachers can check `teacher/facilitator_guide.md` for pacing and tips
+4. Try the quizzes and the capstone; use `resources/rubric.md` to celebrate progress
 
 

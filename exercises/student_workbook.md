@@ -1,24 +1,24 @@
-# Student Workbook
+# Kid Workbook (ages 9+)
 
-Use this workbook during all lessons. Write clearly and think like a respectful, curious marketer.
+Use this workbook during all lessons. Draw, circle, and write like a respectful, curious marketer.
 
 ## Lesson 1 Activities
 1) Match the Trigger
-For each message, circle the likely trigger and the goal.
+For each message, circle the likely trigger (what starts it) and the goal (what we want to happen).
 - A birthday coupon → Trigger: [ ] Birthday date arrives  Goal: [ ] Purchase
-- Welcome email after signup → Trigger: [ ] Form submitted  Goal: [ ] Introduce brand
+- Welcome email after signup → Trigger: [ ] Form submitted  Goal: [ ] Say hello
 - Event reminder → Trigger: [ ] 1 day before event  Goal: [ ] Attend event
 
 Exit Ticket: Why is permission (opt-in) important?
 
 ## Lesson 2 Activities
-2) Build a Segment
-Rule: Grade = ____ AND Interest includes ____
-List 3 students who match (use sample contacts provided by teacher or make up examples):
+2) Build a Group (Segment)
+Rule: Age = ____ AND Interest includes ____
+List 3 kids who match (use sample contacts or make up examples):
 1. __________  2. __________  3. __________
 
 Quick Scenarios:
-- If a student unsubscribes, can we email them again? Why/why not?
+- If a kid unsubscribes, can we email them again? Why/why not?
 - What’s double opt-in and why might it be used?
 
 ## Lesson 3 Activities
