@@ -1,0 +1,50 @@
+:root {
+  --bg: #0f172a;
+  --panel: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --brand: #60a5fa;
+  --link: #93c5fd;
+  --border: #1f2937;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.site-header, .site-footer {
+  padding: 20px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+.site-footer { border-top: 1px solid var(--border); border-bottom: none; }
+.site-header h1 { margin: 0; font-size: 24px; }
+.subtitle { margin: 6px 0 0; color: var(--muted); }
+.home-link { color: var(--link); text-decoration: none; margin-right: 10px; }
+
+.content { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+
+h2 { margin-top: 28px; font-size: 20px; }
+
+.link-list { list-style: none; padding-left: 0; }
+.link-list li { margin: 8px 0; }
+.link-list a { color: var(--link); text-decoration: none; }
+.link-list a:hover { text-decoration: underline; }
+
+.prose h1, .prose h2, .prose h3 { margin-top: 28px; }
+.prose pre { background: #0b1220; padding: 12px; overflow: auto; border: 1px solid var(--border); border-radius: 8px; }
+.prose code { background: #0b1220; padding: 2px 6px; border-radius: 4px; }
+.prose a { color: var(--link); }
+.prose table { border-collapse: collapse; width: 100%; }
+.prose th, .prose td { border: 1px solid var(--border); padding: 8px; }
+.prose blockquote { border-left: 3px solid var(--brand); padding-left: 12px; color: var(--muted); }
+
+/* Mermaid container */
+.mermaid { background: #0b1220; border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+
+
