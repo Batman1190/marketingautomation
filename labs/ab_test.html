@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A/B Test Simulator</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="home-link" href="../index.html">🏠 Home</a>
+    <h1>⚖️ A/B Test Simulator</h1>
+    <p class="subtitle">Simulate subject line experiments and estimate significance.</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Setup</h2>
+      <div style="display:grid; gap:10px; grid-template-columns: repeat(auto-fit,minmax(220px,1fr));">
+        <label>Sample Size (per variant)
+          <input id="n" type="number" value="1000" min="10" />
+        </label>
+        <label>Open Rate A (%)
+          <input id="rateA" type="number" value="25" step="0.1" min="0" max="100" />
+        </label>
+        <label>Open Rate B (%)
+          <input id="rateB" type="number" value="28" step="0.1" min="0" max="100" />
+        </label>
+        <label>Seed (optional)
+          <input id="seed" type="number" placeholder="random" />
+        </label>
+      </div>
+      <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+        <button id="simulate">Simulate</button>
+        <button id="calc">Calculate (no randomness)</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <div id="out" class="prose"></div>
+    </section>
+
+    <section>
+      <h2>Notes</h2>
+      <ul>
+        <li>Simulation draws opens from a binomial distribution.</li>
+        <li>Significance uses a two-proportion z-test (approximation).</li>
+        <li>Use large enough sample sizes for reliable estimates.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="../assets/labs/abtest.js"></script>
+</body>
+</html>
+
+

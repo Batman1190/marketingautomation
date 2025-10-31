@@ -1,0 +1,12 @@
+[
+  {"id":"c001","email":"alice@example.com","age":19,"grade":"college","interests":["design","art"],"subscribed":true,"last_event":"signup"},
+  {"id":"c002","email":"bob@example.com","age":17,"grade":"12","interests":["robotics","gaming"],"subscribed":true,"last_event":"clicked_email"},
+  {"id":"c003","email":"chris@example.com","age":21,"grade":"college","interests":["marketing","analytics"],"subscribed":false,"last_event":null},
+  {"id":"c004","email":"dana@example.com","age":16,"grade":"11","interests":["photography","design"],"subscribed":true,"last_event":"form_submit"},
+  {"id":"c005","email":"eli@example.com","age":23,"grade":"grad","interests":["dev","email"],"subscribed":true,"last_event":"purchased"},
+  {"id":"c006","email":"fay@example.com","age":18,"grade":"12","interests":["dev","robotics"],"subscribed":true,"last_event":"opened_email"},
+  {"id":"c007","email":"gabe@example.com","age":20,"grade":"college","interests":["analytics","data"],"subscribed":false,"last_event":null},
+  {"id":"c008","email":"hana@example.com","age":22,"grade":"college","interests":["ux","design"],"subscribed":true,"last_event":"clicked_email"}
+]
+
+

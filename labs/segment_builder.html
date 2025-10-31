@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segment Builder Lab</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="home-link" href="../index.html">🏠 Home</a>
+    <h1>🧮 Segment Builder</h1>
+    <p class="subtitle">Filter contacts by rules (AND/OR), preview results, export.</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Rules</h2>
+      <div id="rule-builder"></div>
+      <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+        <button id="add-rule">+ Add Rule</button>
+        <label style="display:inline-flex; align-items:center; gap:6px;">
+          Join:
+          <select id="join-type">
+            <option value="AND">AND</option>
+            <option value="OR">OR</option>
+          </select>
+        </label>
+        <button id="run">Run</button>
+        <button id="reset">Reset</button>
+        <button id="export">Export Results (CSV)</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Results <span id="count" class="badge">0</span></h2>
+      <div id="results" class="prose"></div>
+    </section>
+
+    <section>
+      <h2>Sample Data</h2>
+      <p class="subtitle">Loaded from <code>assets/data/contacts.json</code></p>
+      <details>
+        <summary>Show schema</summary>
+        <pre><code>{
+  id: string,
+  email: string,
+  age: number,
+  grade: string,
+  interests: string[],
+  subscribed: boolean,
+  last_event: string | null
+}</code></pre>
+      </details>
+    </section>
+  </main>
+
+  <script src="../assets/labs/segment.js"></script>
+</body>
+</html>
+
+
